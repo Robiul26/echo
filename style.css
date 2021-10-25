@@ -44,7 +44,7 @@ section {
 }
 
 h1, h2 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 2rem;
     color: #081158;
@@ -73,6 +73,10 @@ h3 {
 .heading {
     text-align: center;
     margin-top: 3rem;
+}
+
+.heading .description {
+    padding: 0 16%;
 }
 
 /* reset code and common code ends */
@@ -572,6 +576,9 @@ footer ul li {
     .features .heading .description {
         width: 100%;
         margin: auto;
+    }
+    .heading .description {
+        padding: 0 0%;
     }
     .about {
         flex-direction: column;
